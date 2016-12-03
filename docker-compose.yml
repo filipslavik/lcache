@@ -1,0 +1,6 @@
+version: '2'
+services:
+  phpunit:
+    build: "docker-compose-files/phpunit"
+    volumes:
+      - ".:/lcache"
